@@ -1,0 +1,9 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="/">Agenda</a>
+    <%if(!user){%>
+    <a class="navbar-brand" href="/login/index">login</a>
+    <%}else{%>
+    <a class="navbar-brand" href="/contato/index">Cadastrar</a>
+    <a class="navbar-brand" href="/login/logout">Sair</a>
+  <%}%>
+</nav>

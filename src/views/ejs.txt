@@ -1,0 +1,9 @@
+<% js normal%>
+<%= imprime variavel escapando caracteres%>
+<%- imprime variavel sem escapar caracteres%>
+<%- include('caminho/arquivo')%>
+
+<% if(...){%>
+...html normal
+<%= varQq %>
+<% }%>
